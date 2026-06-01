@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sands Lab</title>
+  <style>
+    :root {
+      --bg: #f7f4ee;
+      --paper: #ffffff;
+      --text: #1f1f1f;
+      --muted: #6f6a62;
+      --line: #ddd5c8;
+      --accent: #4a4036;
+      --soft: #eee7dc;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 32px 20px;
+      border-bottom: 1px solid var(--line);
+      background: var(--paper);
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+    }
+
+    .brand {
+      font-size: 34px;
+      letter-spacing: 0.04em;
+      margin: 0;
+    }
+
+    .tagline {
+      margin: 6px 0 0;
+      color: var(--muted);
+      font-size: 17px;
+    }
+
+    nav {
+      margin-top: 24px;
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    nav a {
+      color: var(--accent);
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+    }
+
+    nav a:hover {
+      border-bottom-color: var(--accent);
+    }
+
+    main {
